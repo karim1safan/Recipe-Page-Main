@@ -9,14 +9,14 @@ body {
     background-color: hsl(30, 54%, 90%);
     font-family: "Outfit", sans-serif;
 }
-.parent {
+main {
     margin: 7.5rem 0;
     background-color: hsl(0, 0%, 100%);
     width: 720px;
     padding: 2rem;
     border-radius: 20px;
 }
-.parent img {
+main img {
     display: block;
     margin: auto;
     width: 98%;
@@ -128,10 +128,10 @@ body {
 
 /* 0px - 320px */
 @media (max-width: 320px) {
-    .parent {
+    main {
         border-radius: 0;
     }
-    .parent img {
+    main img {
         border-radius: 0;
         width: 320px;
         margin-top: -32px;
